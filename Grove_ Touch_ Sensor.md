@@ -27,15 +27,12 @@ This is a mini vibration motor suitable as a non-audible indicator. When the inp
 To make it vibrate is just as easy as to turn on an LED. Here is an example showing how to turn on the vibration motor.
 
 1. Plug it onto the Digital port 9 of Grove - Base Shield using a Grove cable.
-
 2. Plug the Grove - Base Shield onto Arduino.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Touch_Sensor/master/image/p.2.jpg)
 
 3.Connect Arduino to PC by using a USB cable.
-
 4.Copy and paste code below to a new Arduino sketch, and upload it to your Arduino. Please click [ here](http://www.seeedstudio.com/wiki/GrovePi%2B) if you do not know how to upload.
-
 Demo code like:
 ```sh
  

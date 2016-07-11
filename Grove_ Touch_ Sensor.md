@@ -29,7 +29,7 @@ Used Chipset: TTP223-BA6
 
 **With Arduino**
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Touch_Sensor/master/image/p2.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Touch_Sensor/master/image/p.2.jpg)
 
 This demo is going to show you how to turn on/off an LED.
 

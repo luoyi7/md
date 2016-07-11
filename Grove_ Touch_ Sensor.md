@@ -20,18 +20,15 @@ This is a mini vibration motor suitable as a non-audible indicator. When the inp
 |Operate Voltage|	3.0V|	5.0V	|5.5V|
 |Control Mode|	Logic Level  (When Logic HIGH, the motor is ON. When LOW, the motor is OFF.)|
 |Rated speed|	9000 rpm|
-
-   **Dillinger**
-
-|AHLB|	TOG|	LPMB	|MOTB	|SLRFTB	|RST|	Q	|OPDO|
-|:------|:-------|:-----|:------|:------|:------|:------|:------|
-|Output Active High / Low|	Toggle mode|	Power Mode|	Max. On Time|	Sampling length|	RESET PIN	|CMOS Output|	Open Drain Mode|
-|V|	V|	0|	1|	1	|X|	V|	X|
-|Active| High|	Disabled|	LOW	|Infinite|	1.6 msec|	N/A|	Present|	N/A|
-
-## Demonstration
-
+## Usage
+  
 **With Arduino**
+
+To make it vibrate is just as easy as to turn on an LED. Here is an example showing how to turn on the vibration motor.
+
+1. Plug it onto the Digital port 9 of Grove - Base Shield using a Grove cable.
+
+2. Plug the Grove - Base Shield onto Arduino.
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Touch_Sensor/master/image/p.2.jpg)
 

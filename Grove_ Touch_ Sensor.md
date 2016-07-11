@@ -77,7 +77,7 @@ Now, feel the vibration of your motor!
     nano grove_vibration_motor.py   # "Ctrl+x" to exit #
 ```
 ```Javascript
-   import time
+import time
 import grovepi
 
 # Connect the Grove Vibration Motor to digital port D8

@@ -111,10 +111,10 @@ while True:
 ## Version Tracker
 
 |Revision|	Descriptions|	Release|
-|:------|:-------|:-----|
-|v0.9b|	Initial public release|	May 10, 2011|
-|v1.0	|directly use a I/O port to drive vibration Motor	|Nov 5, 2011|
-|v1.2|	add a transistor, use bigger current to drive Vibration Motor|	July 11, 2013|
+|:------|:----------------|:------------|
+|v0.9b|	     Initial public release   |	May 10, 2011  |
+|v1.0	|    directly use a I/O port to drive vibration Motor   	|Nov 5, 2011|
+|v1.2|   	add a transistor, use bigger current to drive Vibration Motor   |	July 11, 2013|
 
 ## Resources
 - [Eagle Files](https://github.com/SeeedDocument/Grove_Touch_Sensor/blob/master/resource/Touch_sensor_Eagle_File.zip)

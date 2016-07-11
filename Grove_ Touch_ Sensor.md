@@ -35,6 +35,7 @@ To make it vibrate is just as easy as to turn on an LED. Here is an example show
 3.Connect Arduino to PC by using a USB cable.
 
 4.Copy and paste code below to a new Arduino sketch, and upload it to your Arduino. Please click [ here](http://www.seeedstudio.com/wiki/GrovePi%2B) if you do not know how to upload.
+
 Demo code like:
 ```sh
  

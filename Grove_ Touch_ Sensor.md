@@ -5,9 +5,13 @@ Grove - Touch Sensor enables you to replace press with touch. It can detect the 
 
 ## Specifications
 Operating Voltage: 2.0 - 5.5V
+
 Operating Current(Vcc=3V):1.5 - 3.0μA
+
 Operating Current(VDD=3V):3.5 - 7.0μA
+
 Output Response Time: 60 - 220mS
+
 Used Chipset: TTP223-BA6
 
  

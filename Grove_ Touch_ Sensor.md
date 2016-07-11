@@ -5,7 +5,7 @@ This is a mini vibration motor suitable as a non-audible indicator. When the inp
 
 **Model:**[ ROB51043P](https://www.seeedstudio.com/item_detail.html?p_id=839)
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Touch_Sensor/master/image/p1.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/300px-Gvib.jpg)
 
 ## Features
 - Grove compatible
@@ -29,7 +29,7 @@ To make it vibrate is just as easy as to turn on an LED. Here is an example show
 1. Plug it onto the Digital port 9 of Grove - Base Shield using a Grove cable.
 2. Plug the Grove - Base Shield onto Arduino.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Touch_Sensor/master/image/p.2.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/700px-IMG_0506.jpg)
 
 
 3.Connect Arduino to PC by using a USB cable.

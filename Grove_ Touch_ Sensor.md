@@ -51,7 +51,8 @@ digitalWrite(ledPin,LOW);
 }
 
 ```
-**With**[Raspberry Pi](http://www.seeedstudio.com/wiki/GrovePi%2B)
+**With** [Raspberry Pi](http://www.seeedstudio.com/wiki/GrovePi%2B)
+
 1.You should have got a raspberry pi and a grovepi or grovepi+.
 
 2.You should have completed configuring the development enviroment, otherwise follow [here ](http://www.seeedstudio.com/wiki/GrovePi%2B#Introducing_the_GrovePi.2B). 

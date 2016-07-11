@@ -118,6 +118,6 @@ while True:
 |v1.2|   	add a transistor, use bigger current to drive Vibration Motor   |	July 11, 2013|
 
 ## Resources
-- [Eagle Files](https://github.com/SeeedDocument/Grove_Touch_Sensor/blob/master/resource/Touch_sensor_Eagle_File.zip)
-- [TTP223pdf](http://garden.seeedstudio.com/images/d/d5/TTP223.pdf)
-- [how to upload code](http://www.seeedstudio.com/wiki/Upload_Code)
+- [Grove - Vibration Motor Eagle File](https://github.com/SeeedDocument/Grove_Vibration_Motor/blob/master/resource/Grove_-_Vibration_Motor_Eagle_Files.zip)
+- [S9013datasheet](http://www.seeedstudio.com/wiki/images/9/9e/S9013.pdf)
+- [ANDA-B1020_datasheet](http://www.seeedstudio.com/wiki/images/b/b7/ANDA-B1020_datasheet.pdf)

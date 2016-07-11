@@ -64,3 +64,25 @@ digitalWrite(ledPin,LOW);
 ```Javascript
   cd yourpath/GrovePi/Software/Python/
 ```
+- To see the code
+```Javascript
+   nano grove_touch_sensor.py   # "Ctrl+x" to exit #
+```
+```Javascript
+   import time
+import grovepi
+
+# Connect the Grove Touch Sensor to digital port D4
+# SIG,NC,VCC,GND
+touch_sensor = 4
+
+grovepi.pinMode(touch_sensor,"INPUT")
+
+while True:
+    try:
+        print grovepi.digitalRead(touch_sensor)
+        time.sleep(.5)
+
+    except IOError:
+        print "Error"
+```

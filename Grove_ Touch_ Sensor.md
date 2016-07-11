@@ -12,6 +12,7 @@ This is a mini vibration motor suitable as a non-audible indicator. When the inp
 - Non-audible
 - Low power consumption
 - High reliability
+
 ## Specifications
 
 |Item|	Min|	Typ|	Max|

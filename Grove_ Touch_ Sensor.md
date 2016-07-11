@@ -32,27 +32,28 @@ To make it vibrate is just as easy as to turn on an LED. Here is an example show
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Touch_Sensor/master/image/p.2.jpg)
 
-This demo is going to show you how to turn on/off an LED.
+3. Connect Arduino to PC by using a USB cable.
 
-**Demo Code:**
+4.Copy and paste code below to a new Arduino sketch, and upload it to your Arduino. Please click [ here](http://www.seeedstudio.com/wiki/GrovePi%2B)if you do not know how to upload.
+
+Demo code like:
 ```sh
-const int TouchPin=9;
-const int ledPin=12;
-void setup() {
-pinMode(TouchPin, INPUT);
-pinMode(ledPin,OUTPUT);
-} 
  
-void loop() {
-int sensorValue = digitalRead(TouchPin);
-if(sensorValue==1)
-{
-digitalWrite(ledPin,HIGH);
-}
-else
-{
-digitalWrite(ledPin,LOW);
-}
+int MoPin = 9;    // vibrator Grove connected to digital pin 9
+
+void setup()  { 
+  pinMode( MoPin, OUTPUT );
+} 
+
+void loop()  { 
+
+    digitalWrite(MoPin, HIGH);         
+    delay(1000);       
+                     
+    digitalWrite(MoPin, LOW);         
+    delay(1000); 
+ }
+
 }
 
 ```

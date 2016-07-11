@@ -14,4 +14,11 @@ Output Response Time: 60 - 220mS
 
 Used Chipset: TTP223-BA6
 
- 
+
+Option features
+
+|AHLB|	TOG|	LPMB	|MOTB	|SLRFTB	|RST|	Q	|OPDO|
+|:------|:-------|:-----|:------|:------|:------|:------|:------|
+|Output Active High / Low|	Toggle mode|	Power Mode|	Max. On Time|	Sampling length|	RESET PIN	|CMOS Output|	Open Drain Mode|
+|V|	V|	0|	1|	1	|X|	V|	X|
+|Active| High|	Disabled|	LOW	|Infinite|	1.6 msec|	N/A|	Present|	N/A|

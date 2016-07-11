@@ -58,3 +58,9 @@ digitalWrite(ledPin,LOW);
 2.You should have completed configuring the development enviroment, otherwise follow [here ](http://www.seeedstudio.com/wiki/GrovePi%2B#Introducing_the_GrovePi.2B). 
 
 3.Connection 
+- Plug the sensor to grovepi socket D4 by using a grove cable.
+
+4.Navigate to the demos' directory: 
+```Javascript
+  cd yourpath/GrovePi/Software/Python/
+```

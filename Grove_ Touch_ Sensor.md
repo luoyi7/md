@@ -1,7 +1,7 @@
 # Grove - Touch Sensor
 
 ## Introduction
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Touch_Sensor/master/image/Touch1.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Touch_Sensor/master/image/p1.jpg)
 
 Grove - Touch Sensor enables you to replace press with touch. It can detect the change in capacitance when a finger is near by. That means no matter your finger directly touches the pad or just stays close to the pad, Grove - Touch Sensor would outputs HIGH also.
 
@@ -29,7 +29,7 @@ Used Chipset: TTP223-BA6
 
 **With Arduino**
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Touch_Sensor/master/image/Touch2.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Touch_Sensor/master/image/p2.jpg)
 
 This demo is going to show you how to turn on/off an LED.
 

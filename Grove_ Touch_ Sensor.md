@@ -18,8 +18,7 @@ This is a mini vibration motor suitable as a non-audible indicator. When the inp
 |Item|	Min|	Typ|	Max|
 |:------|:-------|:-----|:------|
 |Operate Voltage|	3.0V|	5.0V	|5.5V|
-|Control Mode|	Logic Level
-(When Logic HIGH, the motor is ON. When LOW, the motor is OFF.)|
+|Control Mode|	Logic Level  (When Logic HIGH, the motor is ON. When LOW, the motor is OFF.)|
 
 |Rated speed|	9000 rpm|
 

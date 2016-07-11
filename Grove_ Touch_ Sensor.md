@@ -15,9 +15,7 @@ Output Response Time: 60 - 220mS
 Used Chipset: TTP223-BA6
 
 
-
-                                                        **Dillinger**
-                                                        
+ **Dillinger**
 
 |AHLB|	TOG|	LPMB	|MOTB	|SLRFTB	|RST|	Q	|OPDO|
 |:------|:-------|:-----|:------|:------|:------|:------|:------|

@@ -86,3 +86,10 @@ while True:
     except IOError:
         print "Error"
 ```
+
+5.Run the demo.
+```Javascript
+   sudo python grove_touch_sensor.py
+```
+
+## Resources

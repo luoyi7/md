@@ -97,3 +97,6 @@ while True:
 ```
 
 ## Resources
+- [Eagle Files](https://github.com/SeeedDocument/Grove_Touch_Sensor/blob/master/resource/Touch_sensor_Eagle_File.zip)
+- [TTP223pdf](http://garden.seeedstudio.com/images/d/d5/TTP223.pdf)
+- [how to upload code](http://www.seeedstudio.com/wiki/Upload_Code)

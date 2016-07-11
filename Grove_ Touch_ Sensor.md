@@ -22,3 +22,33 @@ Used Chipset: TTP223-BA6
 |Output Active High / Low|	Toggle mode|	Power Mode|	Max. On Time|	Sampling length|	RESET PIN	|CMOS Output|	Open Drain Mode|
 |V|	V|	0|	1|	1	|X|	V|	X|
 |Active| High|	Disabled|	LOW	|Infinite|	1.6 msec|	N/A|	Present|	N/A|
+
+## Demonstration
+
+**With Arduino**
+
+This demo is going to show you how to turn on/off an LED.
+
+**Demo Code:**
+```sh
+const int TouchPin=9;
+const int ledPin=12;
+void setup() {
+pinMode(TouchPin, INPUT);
+pinMode(ledPin,OUTPUT);
+} 
+ 
+void loop() {
+int sensorValue = digitalRead(TouchPin);
+if(sensorValue==1)
+{
+digitalWrite(ledPin,HIGH);
+}
+else
+{
+digitalWrite(ledPin,LOW);
+}
+}
+
+**With**
+```

@@ -28,11 +28,11 @@ Seeeduino Lite is a microcontroller based on ATmega32U4. Just like Arduino Leona
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/700px-IMG_0506.jpg)
 
-U1: 78M05 IC, Three-terminal positive voltage regulator.
+**U1:** 78M05 IC, Three-terminal positive voltage regulator.
 
-U3: LD1117 IC, a Low Drop Voltage Regulator able to provide up to 800mA of Output Current.
+**U3:** LD1117 IC, a Low Drop Voltage Regulator able to provide up to 800mA of Output Current.
 
-U5: Atmega32U4 IC, 8-bit AVR Microcontroller with 32K Bytes of ISP Flash and USB Controller.
+**U5:** Atmega32U4 IC, 8-bit AVR Microcontroller with 32K Bytes of ISP Flash and USB Controller.
 
 
 ## Driver Installation

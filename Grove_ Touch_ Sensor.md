@@ -130,13 +130,22 @@ Together we seek answers, make interesting stuff, care about each other, and sha
 Some frequently asked questions in RePhone Community are collected and answered to the topic [ "Frequently Asked Questions of RePhone (FAQ)"](http://www.seeed.cc/topic_detail.html?id=5170#p23753),the topic will be kept updating whenever a new FAQ comes out. 
 
 ## Resources
+The schematic diagrams of RePhone Modules are provided in the following link:
 
-- [Seeeduino Lite Eagle File](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Seeeduino_Lite_Eagle_File.zip). 
-- [new boards.txt](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Boards.zip). 
-- [new USBCore.cpp](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Boards.zip). 
-- [Lite Driver File](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Signed_USB_Serial_Driver-master.zip).  
-- [Getting Started](http://www.seeedstudio.com/wiki/index.php?title=Main_Page#Getting_Started). 
+- [Schematic Diagrams of RePhone Modules](https://github.com/SeeedDocument/Rephone/blob/master/resource/Schematic_Diagrams_of_RePhone_Modules.rar). 
 
+which includes:
+
+- [Xadow GSM+BLE](http://www.seeedstudio.com/wiki/Xadow_GSM%2BBLE). 
+- [Xadow GSM Breakout](http://www.seeedstudio.com/wiki/Xadow_GSM_Breakout). 
+- [Xadow 1.54” Touchscreen](http://www.seeedstudio.com/wiki/Xadow_1.54%27%27_Touchscreen).
+- [Xadow Audio](http://www.seeedstudio.com/wiki/Xadow_Audio). 
+- [Xadow Duino](http://www.seeedstudio.com/wiki/Xadow_Duino). 
+- [Xadow GPS v2](http://www.seeedstudio.com/wiki/Xadow_GPS_v2). 
+- [Xadow Basic Sensors](http://www.seeedstudio.com/wiki/Xadow_Basic_Sensors). 
+- [Xadow NFC v2](http://www.seeedstudio.com/wiki/Xadow_NFC_v2). 
+- [Xadow LED 5x7](http://www.seeedstudio.com/wiki/Xadow_LED_5x7). 
+- [Xadow Pebble Time Adapter](http://www.seeedstudio.com/wiki/Xadow_Pebble_Time_Adapter). 
 
 ## Is this page helpful
 <iframe style="height: 600px; width: 500px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/3JQQ2L6" frameborder="0"></iframe>

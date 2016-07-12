@@ -74,7 +74,7 @@ The core of the RePhone is provided by Xadow GSM+BLE or by RePhone Core 3G Modul
 ## Development Environment
 We have developed rich libraries hooking into Arduino IDE, Lua and JavaScript, with detailed example sketches to help entry-level programmers develop with RePhone modules easily and quickly. We also provide a full power SDK based on Eclipse IDE for C/C++ developers to work with high level applications. 
 
-[](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/600px-IDE_LOGOs.png)
+![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/600px-IDE_LOGOs.png)
 
 
 Check out:

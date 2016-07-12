@@ -104,3 +104,8 @@ Some frequently asked questions in RePhone Community are collected and answered 
 - [new USBCore.cpp](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Boards.zip). 
 - [Lite Driver File](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Signed_USB_Serial_Driver-master.zip).  
 - [Getting Started](http://www.seeedstudio.com/wiki/index.php?title=Main_Page#Getting_Started). 
+
+
+## Is this page helpful
+<iframe style="height: 600px; width: 500px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.surveymonkey.com/r/3JQQ2L6" frameborder="0"></iframe>
+

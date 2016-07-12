@@ -38,9 +38,13 @@ The core of the RePhone is provided by Xadow GSM+BLE or by RePhone Core 3G Modul
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/195px-Xadow_Duino_addon.png)](http://www.seeedstudio.com/wiki/Xadow_Duino)
 
-[![](image_link)](_target_page_)
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/174px-Xadow_GPS_v2_addon.png)](http://www.seeedstudio.com/wiki/Xadow_GPS_v2)
 
-[![](image_link)](_target_page_)
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/198px-Xadow_Basic_Sensors_addon.png)](http://www.seeedstudio.com/wiki/Xadow_Basic_Sensors)
+
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/300px-Xadow_NFC_v2_addon.png)](http://www.seeedstudio.com/wiki/Xadow_NFC_v2)
+
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/183px-Xadow_LED_5x7_add_on.png)](http://www.seeedstudio.com/wiki/Xadow_LED_5x7)
 
 **RePhone Kit Create**
 [![](image_link)](_target_page_)

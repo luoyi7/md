@@ -1,75 +1,79 @@
-# Grove - Vibration Motor
+# Seeeduino Lite
 
 ## Introduction
-This is a mini vibration motor suitable as a non-audible indicator. When the input is HIGH, the motor will vibrate just like your cell phone on silent mode.
+Seeeduino Lite is a microcontroller based on ATmega32U4. Just like Arduino Leonardo, it saves a secondary processor needed for USB to serial communication. And this allows Seeeduino Lite appear to computer as a USB device, like keyboard and mouse. Derived from Leonardo, we also merged custom details of Seeeduino series into Seeeduino Lite, like selectable operating voltage, onboard Grove connectors and so on. It has 20 digital I/Os (7 of which can output PWM),a micro USB connection, a power jack, an ICSP header, and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter to get started.
 
-**Model:**[ ROB51043P](https://www.seeedstudio.com/item_detail.html?p_id=839)
+**Model:**[ARD05253P](https://www.seeedstudio.com/item_detail.html?p_id=1487)
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/300px-Gvib.jpg)
 
-## Features
-- Grove compatible
-- Non-audible
-- Low power consumption
-- High reliability
 
 ## Specifications
 
-|Item|	|
-|------------------|:--------------:|
-|Operate Voltage|	3.0V~5.5V|
-|Control Mode|	Logic Level  (When Logic HIGH, the motor is ON. When LOW, the motor is OFF.)|
-|Rated speed|	9000 rpm |
-## Usage
+- Microcontroller: ATmega32u4
+- Operating Voltage: 5V
+- Input Voltage (recommended): 7-12V
+- Input Voltage (limits): 6-20V
+- Digital I/O Pins: 20
+- PWM Channels: 7
+- Analog Input Channels: 12
+- DC Current per I/O Pin: 40 mA
+- DC Current for 3.3V Pin: 50 mA
+- Flash Memory: 32 KB (ATmega32u4) of which 4 KB used by bootloader
+- SRAM: 2.5 KB (ATmega32u4)
+- EEPROM: 1 KB (ATmega32u4)
+- Clock Speed: 16 MHz
   
-**With Arduino**
-
-To make it vibrate is just as easy as to turn on an LED. Here is an example showing how to turn on the vibration motor.
-
-1. Plug it onto the Digital port 9 of Grove - Base Shield using a Grove cable.
-2. Plug the Grove - Base Shield onto Arduino.
+## Interface
 
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/700px-IMG_0506.jpg)
 
+U1: 78M05 IC, Three-terminal positive voltage regulator.
 
-3.Connect Arduino to PC by using a USB cable.
+U3: LD1117 IC, a Low Drop Voltage Regulator able to provide up to 800mA of Output Current.
 
-4.Copy and paste code below to a new Arduino sketch, and upload it to your Arduino. Please click [ here](http://www.seeedstudio.com/wiki/GrovePi%2B) if you do not know how to upload.
+U5: Atmega32U4 IC, 8-bit AVR Microcontroller with 32K Bytes of ISP Flash and USB Controller.
 
-Demo code like:
-```sh
- 
-int MoPin = 9;    // vibrator Grove connected to digital pin 9
 
-void setup()  { 
-  pinMode( MoPin, OUTPUT );
-} 
+## Driver Installation
+Download the driver files from here [https://github.com/Seeed-Studio/Signed_USB_Serial_Driver](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver). 
 
-void loop()  { 
+Connect Seeeduino Lite to your computer via a micro-USB wire.
 
-    digitalWrite(MoPin, HIGH);         
-    delay(1000);       
-                     
-    digitalWrite(MoPin, LOW);         
-    delay(1000); 
- }
+Wait for the new found hardware prompt.If the installer does not launch automatically, Navigate to the Windows Device Manager and find the Seeeduino Lite listing.
 
-}
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/700px-IMG_0506.jpg)
 
-```
-Now, feel the vibration of your motor!
+Right click and choose Update driver. When asked to install automatically or from a specific location, select "Browse my computer for driver software".
 
-**With** [Raspberry Pi](http://www.seeedstudio.com/wiki/GrovePi%2B)
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/700px-IMG_0506.jpg)
 
-1.You should have got a raspberry pi and a grovepi or grovepi+.
+Choose "Search for the best driver in these locations", and check the box "incude this location in the search". Click the Browse button and navigate to drive you have downloaded. Select the drivers folder an click OK.
 
-2.You should have completed configuring the development enviroment, otherwise follow [here ](http://www.seeedstudio.com/wiki/Upload_Code). 
 
-3.Connection 
-- Plug the sensor to grovepi socket D4 by using a grove cable.
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/700px-IMG_0506.jpg)
 
-4.Navigate to the demos' directory: 
-```Javascript
+![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/700px-IMG_0506.jpg)
+
+Replace two file in the path of Arduino. Open up Arduino-1.0.1/hardware/arduino/cores/arduino directory, replace the file:USBCore.cpp with the new USBCore.cpp.And replace file：boards.txt with the new boards.txt in the path:Arduino-1.0.1/hardware/arduino. Now, you can program and use the seeeduino lite as you use other Arduino boards.
+
+## Resources
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   cd yourpath/GrovePi/Software/Python/
 ```
 - To see the code

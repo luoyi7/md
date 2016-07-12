@@ -1,61 +1,94 @@
-# Seeeduino Lite
+# Rephone
 
-## Introduction
-Seeeduino Lite is a microcontroller based on ATmega32U4. Just like Arduino Leonardo, it saves a secondary processor needed for USB to serial communication. And this allows Seeeduino Lite appear to computer as a USB device, like keyboard and mouse. Derived from Leonardo, we also merged custom details of Seeeduino series into Seeeduino Lite, like selectable operating voltage, onboard Grove connectors and so on. It has 20 digital I/Os (7 of which can output PWM),a micro USB connection, a power jack, an ICSP header, and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter to get started.
+RePhone Kit is an open source modular phone kit that changes the way we put our phone into use. It provides a new form of phone customization, and the easiest solution to wearable/IoT development.
 
-**Model:**[ARD05253P](https://www.seeedstudio.com/item_detail.html?p_id=1487)
+With Rephone you can create your own phone in minutes by using the slim MODULES, accessible SOFTWARE, and customizable PHONE CASE. You can also hack things around you, giving inanimate objects the power of cellular communication, having conversations with your pets, plants, toys, motorcycle helmets, robots, or drones through cellular connectivity.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/400px-Lite_01.jpg)
+[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/make_it_now.png)](http://www.seeed.cc/discover.html?t=rephone)
 
 
-## Specifications
 
-- Microcontroller: ATmega32u4
-- Operating Voltage: 5V
-- Input Voltage (recommended): 7-12V
-- Input Voltage (limits): 6-20V
-- Digital I/O Pins: 20
-- PWM Channels: 7
-- Analog Input Channels: 12
-- DC Current per I/O Pin: 40 mA
-- DC Current for 3.3V Pin: 50 mA
-- Flash Memory: 32 KB (ATmega32u4) of which 4 KB used by bootloader
-- SRAM: 2.5 KB (ATmega32u4)
-- EEPROM: 1 KB (ATmega32u4)
-- Clock Speed: 16 MHz
+
+## Features
+
+- World’s first open source and modular phone
+- Support Lua, Javascript, Arduino IDE and Eclipse IDE
+- Various rich-featured add-on modules for function extension
+- DIY Phone
+- Last for about 25 hours @ standby (RePhone Kit Create)
   
-## Interface
+## RePhone Family
+The core of the RePhone is provided by Xadow GSM+BLE or by RePhone Core 3G Module (coming soon), beyond these two core modules are 8 more chainable add-on modules to extend the features and functionalities – Xadow 1.54’’ Touchscreen, Xadow Audio, Xadow GSM Breakout, Xadow LED 5x7, Xadow Basic Sensors, Xadow Duino, Xadow GPS v2 and Xadow NFC v2. 
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/Seeeduino_Lite_Intrface_Function.jpg)
-
-**U1:** 78M05 IC, Three-terminal positive voltage regulator.
-
-**U3:** LD1117 IC, a Low Drop Voltage Regulator able to provide up to 800mA of Output Current.
-
-**U5:** Atmega32U4 IC, 8-bit AVR Microcontroller with 32K Bytes of ISP Flash and USB Controller.
+**Core Module**
 
 
-## Driver Installation
-Download the driver files from here [https://github.com/Seeed-Studio/Signed_USB_Serial_Driver](https://github.com/Seeed-Studio/Signed_USB_Serial_Driver). 
-
-Connect Seeeduino Lite to your computer via a micro-USB wire.
-
-Wait for the new found hardware prompt.If the installer does not launch automatically, Navigate to the Windows Device Manager and find the Seeeduino Lite listing.
-
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/Unknow_Device.jpg)
-
-Right click and choose Update driver. When asked to install automatically or from a specific location, select "Browse my computer for driver software".
-
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/Update_Driver.jpg)
-
-Choose "Search for the best driver in these locations", and check the box "incude this location in the search". Click the Browse button and navigate to drive you have downloaded. Select the drivers folder an click OK.
+**Add-on Modules**
 
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/Browse_Driver_Location.jpg)
+**RePhone Kit Create**
 
-![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/Successfully_Update_Driver.jpg)
 
-Replace two file in the path of Arduino. Open up Arduino-1.0.1/hardware/arduino/cores/arduino directory, replace the file:USBCore.cpp with the new USBCore.cpp.And replace file：boards.txt with the new boards.txt in the path:Arduino-1.0.1/hardware/arduino. Now, you can program and use the seeeduino lite as you use other Arduino boards.
+**RePhone Strap Kit for Pebble**
+
+
+**RePhone Geo Kit**
+
+
+**RePhone Lumi Kit**
+
+
+**RePhone Extension Pack**
+
+
+## Development Environment
+We have developed rich libraries hooking into Arduino IDE, Lua and JavaScript, with detailed example sketches to help entry-level programmers develop with RePhone modules easily and quickly. We also provide a full power SDK based on Eclipse IDE for C/C++ developers to work with high level applications. 
+
+
+Check out:
+
+[Arduino IDE for RePhone Kit](http://www.seeedstudio.com/wiki/Arduino_IDE_for_RePhone_Kit)
+[Eclipse IDE for RePhone Kit](http://www.seeedstudio.com/wiki/Eclipse_IDE_for_RePhone_Kit)
+[Lua for RePhone Kit](http://www.seeedstudio.com/wiki/Lua_for_RePhone)
+[JavaScript for RePhone Kit](http://www.seeedstudio.com/wiki/JavaScript_for_RePhone)
+[Building RePhone Applications on Mac OS X](https://github.com/Seeed-Studio/CodeLite_for_RePhone/wiki/building-RePhone-applications-on-Mac-OS-X)
+
+
+Also, if you are developing RePhone modules based on other Arduino compatible development board, you can refer to:
+
+[RePhone APIs for Arduino](https://github.com/WayenWeng/RePhone_API_for_Arduino/)
+
+Find the RePhone Kit Create Source Code here (based on Eclipse IDE):
+
+[RePhone Kit Create Source Code](https://github.com/WayenWeng/RePhone_Create_Kit_Source_Code/)
+
+We will keep updating the RePhone SDK on our Github page:
+
+[RePhone SDK](https://github.com/WayenWeng/RePhone_SDK_Bin_Update//)
+
+## Reset your Rephone to defaults
+**Please be noticed that reset your Rephone to defaults will delete all the settings and files(images, musics) in the RePhone, do aware of this before you reset it to defaults.**
+
+To reset your RePhone to **DEFAULTS:**
+
+1. Follow the instructions in "Update/Flash the Firmware" section to flash the firmware
+2. Download the RePhone_Create_Kit_VXP file
+3. Enter the [RePhone Mass Storage Mode](http://www.seeedstudio.com/wiki/Xadow_GSM%2BBLE#Mass_Storage_Mode)
+4. Copy everything under the file named "RePhone Create Kit VXP" into the RePhone 5MB mass storage. 
+5. Restart your RePhone then its done. As reset have deleted all the files, you would have to put an mp3 file in the mass storage as well for the use of ringtone. 
+
+
+## RePhone Community 
+
+We’ve been looking for a better place where our backers (RePhone Users) can sit together, warmly and comfortably, have conversations about RePhone, discuss technical problems, share ideas/projects, and give feedback on the modules’ development in the future. And then here we go, the RePhone Community.
+
+Now join us in the [RePhone Community](http://www.seeed.cc/discover.html?t=rephone)
+
+Together we seek answers, make interesting stuff, care about each other, and share our experiences.
+
+**Frequently Asked Questions**
+
+Some frequently asked questions in RePhone Community are collected and answered to the topic [ "Frequently Asked Questions of RePhone (FAQ)"](http://www.seeed.cc/topic_detail.html?id=5170#p23753),the topic will be kept updating whenever a new FAQ comes out. 
 
 ## Resources
 

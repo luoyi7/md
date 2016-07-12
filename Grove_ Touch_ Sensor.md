@@ -26,23 +26,40 @@ The core of the RePhone is provided by Xadow GSM+BLE or by RePhone Core 3G Modul
 
 **Core Module**
 
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/368px-Xadow_GSM%2BBLE_CORE.png)](http://www.seeedstudio.com/wiki/Xadow_GSM%2BBLE)
 
 **Add-on Modules**
 
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/220px-Xadow_1.54''_Touchscreen_addon.png)](http://www.seeedstudio.com/wiki/Xadow_1.54%27%27_Touchscreen)
+
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/178px-Xadow_Audio_addon.png)](http://www.seeedstudio.com/wiki/Xadow_Audio)
+
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/217px-Xadow_GSM_Breakout_addon.png)](http://www.seeedstudio.com/wiki/Xadow_GSM_Breakout)
+
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/195px-Xadow_Duino_addon.png)](http://www.seeedstudio.com/wiki/Xadow_Duino)
+
+[![](image_link)](_target_page_)
+
+[![](image_link)](_target_page_)
 
 **RePhone Kit Create**
+[![](image_link)](_target_page_)
 
 
 **RePhone Strap Kit for Pebble**
+[![](image_link)](_target_page_)
 
 
 **RePhone Geo Kit**
+[![](image_link)](_target_page_)
 
 
 **RePhone Lumi Kit**
+[![](image_link)](_target_page_)
 
 
 **RePhone Extension Pack**
+[![](image_link)](_target_page_)
 
 
 ## Development Environment

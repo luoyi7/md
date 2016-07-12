@@ -47,27 +47,29 @@ The core of the RePhone is provided by Xadow GSM+BLE or by RePhone Core 3G Modul
 [![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/183px-Xadow_LED_5x7_add_on.png)](http://www.seeedstudio.com/wiki/Xadow_LED_5x7)
 
 **RePhone Kit Create**
-[![](image_link)](_target_page_)
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/375px-IMG_2999.JPG)](https://www.seeedstudio.com/item_detail.html?p_id=2552)
 
 
 **RePhone Strap Kit for Pebble**
-[![](image_link)](_target_page_)
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/450px-RePhone_strap_kit_for_pebble-20.png)](http://www.seeedstudio.com/wiki/RePhone_Strap_Kit_for_Pebble)
 
 
 **RePhone Geo Kit**
-[![](image_link)](_target_page_)
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/450px-RePhone_Geo_Kit_wiki_2.jpg)](http://www.seeedstudio.com/wiki/RePhone_Geo_Kit)
 
 
 **RePhone Lumi Kit**
-[![](image_link)](_target_page_)
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/450px-RePhone_Lumi_Kit_wiki_2.jpg)](http://www.seeedstudio.com/wiki/RePhone_Lumi_Kit)
 
 
 **RePhone Extension Pack**
-[![](image_link)](_target_page_)
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/450px-RePhone_Extesion_Pack_wiki_2.jpg)](http://www.seeedstudio.com/wiki/RePhone_Extension_Pack)
 
 
 ## Development Environment
 We have developed rich libraries hooking into Arduino IDE, Lua and JavaScript, with detailed example sketches to help entry-level programmers develop with RePhone modules easily and quickly. We also provide a full power SDK based on Eclipse IDE for C/C++ developers to work with high level applications. 
+
+[![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/600px-IDE_LOGOs.png)]
 
 
 Check out:

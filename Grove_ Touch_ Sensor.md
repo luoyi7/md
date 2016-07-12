@@ -5,7 +5,7 @@ Seeeduino Lite is a microcontroller based on ATmega32U4. Just like Arduino Leona
 
 **Model:**[ARD05253P](https://www.seeedstudio.com/item_detail.html?p_id=1487)
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/300px-Gvib.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/400px-Lite_01.jpg)
 
 
 ## Specifications
@@ -26,7 +26,7 @@ Seeeduino Lite is a microcontroller based on ATmega32U4. Just like Arduino Leona
   
 ## Interface
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/700px-IMG_0506.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/Seeeduino_Lite_Intrface_Function.jpg)
 
 **U1:** 78M05 IC, Three-terminal positive voltage regulator.
 
@@ -42,21 +42,25 @@ Connect Seeeduino Lite to your computer via a micro-USB wire.
 
 Wait for the new found hardware prompt.If the installer does not launch automatically, Navigate to the Windows Device Manager and find the Seeeduino Lite listing.
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/700px-IMG_0506.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/Unknow_Device.jpg)
 
 Right click and choose Update driver. When asked to install automatically or from a specific location, select "Browse my computer for driver software".
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/700px-IMG_0506.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/Update_Driver.jpg)
 
 Choose "Search for the best driver in these locations", and check the box "incude this location in the search". Click the Browse button and navigate to drive you have downloaded. Select the drivers folder an click OK.
 
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/700px-IMG_0506.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/Browse_Driver_Location.jpg)
 
-![](https://raw.githubusercontent.com/SeeedDocument/Grove_Vibration_Motor/master/image/700px-IMG_0506.jpg)
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lite/master/image/Successfully_Update_Driver.jpg)
 
 Replace two file in the path of Arduino. Open up Arduino-1.0.1/hardware/arduino/cores/arduino directory, replace the file:USBCore.cpp with the new USBCore.cpp.And replace file：boards.txt with the new boards.txt in the path:Arduino-1.0.1/hardware/arduino. Now, you can program and use the seeeduino lite as you use other Arduino boards.
 
 ## Resources
 
-
+- [Seeeduino Lite Eagle File](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Seeeduino_Lite_Eagle_File.zip). 
+- [new boards.txt](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Boards.zip). 
+- [new USBCore.cpp](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Boards.zip). 
+- [Lite Driver File](https://github.com/SeeedDocument/Seeeduino_Lite/blob/master/resource/Signed_USB_Serial_Driver-master.zip).  
+- [Getting Started](http://www.seeedstudio.com/wiki/index.php?title=Main_Page#Getting_Started). 

@@ -4,7 +4,7 @@ RePhone Kit is an open source modular phone kit that changes the way we put our 
 
 With Rephone you can create your own phone in minutes by using the slim MODULES, accessible SOFTWARE, and customizable PHONE CASE. You can also hack things around you, giving inanimate objects the power of cellular communication, having conversations with your pets, plants, toys, motorcycle helmets, robots, or drones through cellular connectivity.
 
-[![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/make_it_now.png)](http://www.seeed.cc/discover.html?t=rephone)
+[![][![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](http://www.seeed.cc/discover.html?t=rephone)
 
 
 

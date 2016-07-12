@@ -6,6 +6,8 @@ With Rephone you can create your own phone in minutes by using the slim MODULES,
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Rephone/master/image/500px-RePhoneMainPage_logo.png)](http://www.seeed.cc/discover.html?t=rephone)
 
+
+
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeed-WiKi/master/docs/images/get_one_now.png)](http://www.seeed.cc/discover.html?t=rephone)
 
 

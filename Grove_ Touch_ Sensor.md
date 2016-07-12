@@ -48,9 +48,13 @@ We have developed rich libraries hooking into Arduino IDE, Lua and JavaScript, w
 Check out:
 
 [Arduino IDE for RePhone Kit](http://www.seeedstudio.com/wiki/Arduino_IDE_for_RePhone_Kit)
+
 [Eclipse IDE for RePhone Kit](http://www.seeedstudio.com/wiki/Eclipse_IDE_for_RePhone_Kit)
+
 [Lua for RePhone Kit](http://www.seeedstudio.com/wiki/Lua_for_RePhone)
+
 [JavaScript for RePhone Kit](http://www.seeedstudio.com/wiki/JavaScript_for_RePhone)
+
 [Building RePhone Applications on Mac OS X](https://github.com/Seeed-Studio/CodeLite_for_RePhone/wiki/building-RePhone-applications-on-Mac-OS-X)
 
 
